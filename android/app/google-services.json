@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "830540005785",
+    "firebase_url": "https://najiatv-9a13d-default-rtdb.firebaseio.com",
+    "project_id": "najiatv-9a13d",
+    "storage_bucket": "najiatv-9a13d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830540005785:android:34a35b3ca377c6210c9308",
+        "android_client_info": {
+          "package_name": "com.najiatv.najiatv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2gDLpqtr2InIVJ1fqvKuaZOcLhDH9wow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830540005785:android:2a4a554e52ff45f40c9308",
+        "android_client_info": {
+          "package_name": "my.com.najia.najia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2gDLpqtr2InIVJ1fqvKuaZOcLhDH9wow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

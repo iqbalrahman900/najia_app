@@ -1,0 +1,104 @@
+name: najia
+description: Najia App by Najia App Studio.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0-116.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # design 
+  flip_card: ^0.7.0
+  line_icons: ^2.0.1
+  flutter_svg: ^2.0.5
+  google_fonts: ^4.0.4
+  carousel_slider: ^4.2.1
+  lottie: ^2.6.0
+
+  # tools
+  http: ^0.13.6
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.1
+  salomon_bottom_bar: ^3.3.2
+  vibration: ^1.8.1
+  flutter_local_notifications: ^15.1.1
+  url_launcher: ^6.1.14
+  flutter_datetime_picker_plus: ^2.1.0
+  flutter_timezone: ^1.0.8
+
+  # audio
+  audio_session: ^0.1.14
+  just_audio: ^0.9.33
+  audioplayers: ^0.20.1
+
+  # geolocation
+  smooth_compass: ^2.0.17
+
+  # firebase
+  firebase_auth: ^4.10.1
+  firebase_core: ^2.17.0
+  firebase_database: ^10.2.7
+
+  # database
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.15
+
+  # carplay
+  flutter_carplay: ^1.0.3
+
+  #parallax
+  sensors_plus: ^3.1.0
+
+  #home widget
+  home_widget: ^0.3.0
+
+  #live video
+  chewie: ^1.7.5
+  video_player: ^2.8.3
+  hijri: ^3.0.0
+
+dependency_overrides:
+  flutter_compass:
+    git: https://github.com/hemanthrajv/flutter_compass.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/hadith/
+    - assets/images/title/
+    - assets/images/waktu/
+
+  fonts:
+  - family: barlow
+    fonts:
+      - asset: assets/fonts/barlow_regular.ttf
+  - family: naskh
+    fonts:
+      - asset: assets/fonts/uthmanic_hafs_v20.ttf
+
+
+      
+    
+
+      
+  
